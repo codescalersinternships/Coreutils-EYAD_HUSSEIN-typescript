@@ -1,6 +1,6 @@
 "use strict";
-const { Command } = require("commander");
 const yes = () => {
+    const { Command } = require("commander");
     const program = new Command();
     program.parse(process.argv);
     while (true) {
